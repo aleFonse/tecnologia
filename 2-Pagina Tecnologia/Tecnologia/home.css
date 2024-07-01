@@ -1,0 +1,158 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; /* Esconde la barra de abajo */
+}
+
+/* Barra lateral */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c7b8b;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #030340;
+}
+/* Fin barra lateral */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 2em;
+}
+
+.bebas {
+	font-family: 'Bebas Neue';
+}
+
+.nunito {
+	font-family: 'Nunito';
+}
+
+.logo {
+	width: 50px;
+	height: auto;
+}
+
+header a {
+	color: inherit;
+	padding: 0;
+	text-decoration: none;
+	transition: 0.3s
+}
+
+header a:hover {
+	color: #5386E4;
+}
+
+h1 {
+	color: #030340;
+	text-shadow: 4px 4px 8px;
+}
+
+#seccion-inicio {
+	background-image: url(fondo-home.webp);
+	padding-top: 50px;
+	padding-bottom: 200px
+}
+
+#seccion-inicio a {
+	color: white;
+	background-color: #6c7b8b;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 20px;
+	display: inline-block;
+	transition: 0.3s;
+	font-size: 2em;
+}
+
+#seccion-inicio h1 {
+	padding-top: 50px;
+	font-size: 3em;
+}
+
+#seccion-inicio a:hover {
+	background-color: #030340;
+}
+
+#logo-izquierda {
+	margin-left: 0px;
+}
+
+#logo-derecha {
+	margin-right: 40px;
+}
+
+.inline {
+	margin: 0 10px;
+	display: inline-block;
+	padding: 0;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.texto-limitado {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#seccion-media {
+	border-top: 1px solid #6c7b8b;
+	border-bottom: 1px solid #6c7b8b;
+}
+
+#seccion-media a {
+	color: #5386E4;
+	text-decoration: inherit;
+	transition: 0.2s
+}
+
+#seccion-media a:hover {
+	color: #030340;
+}
+
+span {
+	color: #334E8C;
+}
+
+#seccion-final {
+	border-bottom: 1px solid #6c7b8b;
+}
+
+footer {
+	background-color: black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: white;
+}
+
+footer a {
+	font-size: 2em;
+	color: white;
+	text-decoration: none;
+	transition: 0.3s
+}
+
+footer a:hover {
+	color: #5386E4;
+}

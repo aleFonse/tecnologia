@@ -1,0 +1,152 @@
+/* producto3.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esconde la barra de abajo */
+}
+
+/* Barra lateral */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c7b8b;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #030340;
+}
+/* Fin barra lateral */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+}
+
+.bebas {
+    font-family: 'Bebas Neue';
+}
+
+.nunito {
+    font-family: 'Nunito';
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+header a {
+    color: inherit;
+    padding: 0;
+    text-decoration: none;
+    transition: 0.3s
+}
+
+header a:hover {
+    color: #5386E4;
+}
+
+#logo-izquierda {
+    margin-left: 0px;
+}
+
+#logo-derecha {
+    margin-right: 40px;
+}
+
+.inline {
+    margin: 0 10px;
+    display: inline-block;
+    padding: 0;
+}
+
+.centrado {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s
+}
+
+a:hover {
+    color: #5386E4;
+}
+
+#pago {
+    padding: 20px;
+}
+
+.form-pago {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-pago label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
+}
+
+.form-pago input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.boton-pago {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5386E4;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-pago:hover {
+    background-color: #4169E1;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s
+}
+
+footer a:hover {
+    color: #5386E4;
+}

@@ -1,0 +1,136 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; /* Esconde la barra de abajo */
+}
+
+/* Barra lateral */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c7b8b;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #030340;
+}
+/* Fin barra lateral */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 2em;
+}
+
+.bebas {
+	font-family: 'Bebas Neue';
+}
+
+.nunito {
+	font-family: 'Nunito';
+}
+
+.logo {
+	width: 50px;
+	height: auto;
+}
+
+header a {
+	color: inherit;
+	padding: 0;
+	text-decoration: none;
+	transition: 0.3s
+}
+
+header a:hover {
+	color: #5386E4;
+}
+
+#logo-izquierda {
+	margin-left: 0px;
+}
+
+#logo-derecha {
+	margin-right: 40px;
+}
+
+.inline {
+	margin: 0 10px;
+	display: inline-block;
+	padding: 0;
+}
+
+.centrado {
+	text-align: center;
+}
+
+#seccion-form {
+	padding-top: 10px;
+	margin-top: 0px;
+	background-image: url(fondo-home.webp); /* hay que reciclar */
+}
+
+form {
+	margin: 0 auto;
+	width: 50%;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	background-color: #f9f9f9;
+}
+
+label {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2em;
+}
+
+input[type="text"],
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+}
+
+input[type="submit"] {
+	background-color: #5386E4;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 1.5em;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #436bb4;
+}
+
+footer {
+	background-color: black;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	color: white;
+}
